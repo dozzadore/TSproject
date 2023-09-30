@@ -1,0 +1,12 @@
+.mainContent {
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    background: #fff;
+    border: solid 1px #c0bfbf;
+    border-radius: 15px;
+}
+
