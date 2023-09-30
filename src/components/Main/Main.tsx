@@ -8,7 +8,6 @@ function Main() {
 
     return (
         <div className={ style.main }>
-            <NavBar />
             <MainContent />
         </div>
     )

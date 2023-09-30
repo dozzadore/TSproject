@@ -1,11 +1,25 @@
+import Posts from "./Posts/Posts";
 import style from "./maincontent.module.css";
 
 
-function MainContent() {
+interface Props {}
+
+function MainContent(props: Props) {
 
     return (
         <div className={ style.mainContent }>
-
+            <Posts message="hey"/>
+            <Posts message='hi'/>
+            <Posts message='hee'/>
+            <Posts message="hey"/>
+            <Posts message='hi'/>
+            <Posts message='hee'/>
+            <Posts message="hey"/>
+            <Posts message='hi'/>
+            <Posts message='hee'/>
+            <Posts message="hey"/>
+            <Posts message='hi'/>
+            <Posts message='hee'/>
         </div>
     )
 }
