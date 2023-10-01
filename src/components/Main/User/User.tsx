@@ -1,5 +1,5 @@
 import style from "./user.module.css";
-
+import img from "../images/img.jpg";
 
 
 
