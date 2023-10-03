@@ -1,18 +1,18 @@
-import './App.css';
+import style from './layout.module.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
-import  Main from './components/Main/Main';
-import NavBar from './components/NavBar/NavBar';
+import  Main from '../Main/Main';
+import NavBar from '../NavBar/NavBar';
 
 
-function App() {
+
+function Layout() {
 
 
   return (
-    <div className="App">
+    <div className={style.layout}>
       <BrowserRouter>
         <NavBar />
-
         <Routes>
           <Route path="/" element={<Main />} />
 
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Layout;

@@ -2,7 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import style from "./navbar.module.css";
+import Example from "./Example";
 
 
 
@@ -11,6 +11,7 @@ function NavBarMenu() {
 
     return (
       <Navbar bg="dark" data-bs-theme="dark">
+        <Example />
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">

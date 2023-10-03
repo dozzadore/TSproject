@@ -8,7 +8,7 @@ function MainContent(props: Props) {
 
     return (
         <div className={ style.mainContent }>
-            <Posts message="hey"/>
+            <Posts message="hey1"/>
             <Posts message='hi'/>
             <Posts message='hee'/>
             <Posts message="hey"/>

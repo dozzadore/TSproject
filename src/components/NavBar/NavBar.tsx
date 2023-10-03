@@ -5,12 +5,13 @@ import style from "./navbar.module.css";
 
 
 
+
 function NavBar() {
 
     return (
-      <>
+      <div className={style.nav}>
         <NavBarMenu />
-      </>
+      </div>
     )
 }
 

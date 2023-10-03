@@ -1,7 +1,7 @@
 
 import MainContent from "./MainContent/MainContent";
-import User from "./User/User";
 import style from "./main.module.css";
+import User from "../Laypuot/User/User";
 
 
 function Main() {
